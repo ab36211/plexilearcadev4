@@ -1,0 +1,64 @@
+body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/background.png?v=1702599189341'); /* Replace with your actual background URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            color: #b03232;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 5px; /* Increased margin-bottom to separate the text and buttons */
+            transition: transform 0.3s;
+        }
+
+        h1:hover {
+            transform: rotate(6deg) scale(1.2);
+          
+       }
+          
+
+        .button {
+            display: flex;
+            align-items: center;
+            padding: 13px 110px; /* Increased padding for a larger button */
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 21px; /* Slightly less round */
+            transition: transform 0.2s;
+            color: #fff;
+            font-size: 18px;
+            overflow: hidden;
+            
+        }
+
+        .icon {
+            max-width: 100%; /* Ensure the icon does not exceed the button's width */
+            max-height: 100%; /* Ensure the icon does not exceed the button's height */
+            width: 24px; /* Set a specific width for the icon */
+            height: 24px; /* Set a specific height for the icon */
+            margin-left: 10px;
+        }
+
+        #playButton {
+            background-color: #b03232;
+        }
+
+        #discordButton {
+            background-color: #b03232;
+        }
+
+        #playButton:hover,
+        #discordButton:hover {
+            transform: scale(1.1);
+            color: #fff;
+        }
+

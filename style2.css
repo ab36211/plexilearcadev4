@@ -1,0 +1,65 @@
+/* Footer styles */
+body {
+    margin: 0; 
+   min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #16181C;
+    color: #b03232;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+
+}
+
+/* H1 text styling */
+footer h1 {
+    margin: 0;
+    font-size: 32px; /* Adjust the font size to make it larger */
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* © text styling */
+footer p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Hover effect on © text */
+footer p a {
+    color: #b03232;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform 0.5s ease-in-out;
+    display: inline-block;
+    transition: transform 0.1s;
+}
+
+footer p a:hover {
+    color: #9c2c2c;
+    transform: translateX(-5px); /* Initial shake position */
+      animation: shake 0.5s infinite; /* Apply the shake animation on hover */
+}
+
+/* Shake animation */
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px); /* Adjusted for better shake effect */
+    }
+}
+
+
+
