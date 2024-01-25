@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px) saturate(200%) brightness(90%);
+    background-color: #12161D;
     color: #fff;
     display: flex;
     height: 7vw;
