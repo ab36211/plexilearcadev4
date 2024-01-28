@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: -80%;
     bottom: 0;
-    left: 10;
+    left: 11px;
     border-radius: 25px;
     background-color: #12161D;
     color: #fff;
@@ -158,4 +158,25 @@ option {
   color: #b03232;
   padding: 5px;
 }
+
+
+      #copyright {
+            font-size: 14px;
+            margin-top: 2px;
+            font-weight: bold; /* Increased font weight */
+            color: #b03232; /* Color of C Copyright PLEXILE ARCADE text */
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        #copyright:hover {
+            animation: shake 0.5s;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(5px); }
 
