@@ -1,0 +1,34 @@
+.snowball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #b03232; /* Default color for snowballs */
+  border-radius: 50%;
+  pointer-events: none; /* Prevent interaction with snowballs */
+  z-index: -1; /* Ensure snowballs are behind other content */
+  opacity: 0.6; /* Default opacity */
+  animation: snowdrift 8s infinite alternate; /* Faster animation */
+}
+
+.transparent {
+  opacity: 0.4; /* Adjusted opacity for most snowballs */
+}
+
+.light {
+  background-color: #f5aaaa; /* Lighter color for some snowballs */
+}
+
+.small {
+  width: 5px;
+  height: 5px;
+}
+
+@keyframes snowdrift {
+  0% {
+    transform: translate(-4px, -4px);
+  }
+  100% {
+    transform: translate(4px, 4px);
+  }
+}
+
