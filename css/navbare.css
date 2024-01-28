@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: -80%;
     bottom: 0;
-    left: 10;
+    left: 12px;
     border-radius: 25px;
     background-color: #12161D;
     color: #fff;
@@ -160,7 +160,7 @@ option {
 }
 
 
-      #copyright {
+        #copyright {
             font-size: 14px;
             margin-top: 2px;
             font-weight: bold; /* Increased font weight */
