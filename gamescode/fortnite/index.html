@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLEXILE ARCADE Loader</title>
-        <style>
+       <style>
         body {
             display: flex;
             align-items: center;
@@ -88,7 +90,17 @@
         <div class="spinner"></div>
     </div>
 
-
     <div class="embed-container" id="embeddedContent">
-        <iframe src="https://tfgtedwhqefgtdhbsm.onrender.com/web/_aHR0cHM6Ly9tb3ZpZS13ZWIuYXBw_/" frameborder="0"></iframe>
+        <iframe src="https://tfgtedwhqefgtdhbsm.onrender.com/web/_aHR0cHM6Ly9ub3cuZ2c=_/apps/epic-games/7308/fortnite.html" frameborder="0"></iframe>
   </div>
+
+    <script>
+        // Wait for the loader to fade out and then display the embedded content
+        setTimeout(function() {
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('embeddedContent').style.display = 'block';
+        }, 7000); // Wait for 4 seconds before starting the fade-out animation
+    </script>
+</body>
+
+</html>
