@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const numSnowballs = 300; // Reduce the number of snowballs
+  const numSnowballs = 400; // Reduce the number of snowballs
   const body = document.body;
   const padding = 50; // Adjust this value as needed to control the spread around the edges
 
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Randomize position within the visible viewport with padding to avoid edges
     const x = Math.random() * (window.innerWidth - 2 * padding) + padding;
-    const y = Math.random() * (window.innerHeight + 2500); // Add extra to ensure visibility at the bottom
+    const y = Math.random() * (window.innerHeight + 2620); // Add extra to ensure visibility at the bottom
     snowball.style.left = `${x}px`;
     snowball.style.top = `${y}px`;
 
