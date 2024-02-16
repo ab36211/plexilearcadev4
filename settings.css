@@ -1,0 +1,72 @@
+/* settings.css */
+
+.settings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.setting {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+}
+
+.switch-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-toggle label {
+  display: block;
+  background-color: #ddd;
+  border-radius: 34px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.switch-toggle label:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #aaa;
+  top: 4px;
+  left: 4px;
+  transition: 0.3s;
+}
+
+.switch-toggle input:checked + label:before {
+  left: 30px;
+}
+
+.saved {
+  color: #4caf50;
+  font-weight: bold;
+}
+

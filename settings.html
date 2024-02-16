@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
@@ -24,6 +23,7 @@
   <link rel="stylesheet" href="/css/extras.css" />
         <link rel="stylesheet" href="/css/settings.css" />
       <link rel="stylesheet" href="/css/scrollbar.css" />
+     <link rel="stylesheet" href="/styles.css" />
      
 
           <script src="/js/settings.js"></script>
@@ -79,18 +79,19 @@
          <li><a href="/settings.html"><i class="fa-solid fa-gear" style="margin-right: 5px;"></i></a></li>
       </ul>
       </nav>
-      <h1>ㅤ</h1>
+      <h1></h1>
       <h3>ㅤ</h3>
-      <h6>ㅤ</h6>
-      <h6>ㅤ</h6>
+      <h6></h6>
+      <h6></h6>
       <h6></h6>
       <h7></h7>
       <h8></h8>
       <h1></h1>
       <h2></h2>
-    <main>
+   
+      <main>
+        <section class="hero2">
     
-          
       <h2>Tab Cloaking</h2>
         <br />
         <div class="buttons">
@@ -112,15 +113,53 @@
         </div>
 
         <br />
+    </section>
+          
       
-      
-<!DOCTYPE html>
-       ㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤ<button onclick="cloak()" class="cloak">about:blank</button>
-        <br /><br /><br /><br />
-        
-        <br />
+     <main>
+        <section class="hero3">
+         
+  
+          
+          <h3><b>Panic Key</b></h3>
+          
+          <div class="mini-box">
+  <span class="box-text">=</span>
+</div>
+
+         
+          
+  </section>
+          
+          
+           
+     <main>
+        <section class="hero4">
+         
+           <h3><b>About:Blank</b></h3>
+          
+          <label class="switch">
+  <input type="checkbox" id="about_blank_toggle" onclick="cloak()">
+  <span class="slider"></span>
+
+</label>
+          
+          
+  </section>
+
+          
+           
+     <main>
+        <section class="hero5">
+         
+           <h3><b>Themes</b></h3>
+          <p class="description">I'm sorry but this feature is currently unavailable.</p>
+          <div class="switch-toggle">
+          
+  </section>
 
 
+          
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -148,7 +187,6 @@
 
 
 
-<h4><b style="color: #fff;"</b>Press the <b style="color: #fff;"</b>"<b style="color: #b03232;"</b>=<b style="color: #fff;"</b>"<b style="color: #fff;"</b> key to activate the <b style="color: #b03232;"</b>panic <b style="color: #fff;"</b>button!</h4>
 <script src="panicbutton.js"></script>
 
   </body>
@@ -164,4 +202,39 @@
     </style>
 
 
+<script>
+document.addEventListener('keydown', function(event) {
+    
+    if (event.key.startsWith('Arrow')) {
+      
+        event.preventDefault();
+    }
+});
 
+document.addEventListener('touchmove', function(event) {
+
+    event.preventDefault();
+});
+  document.addEventListener('keydown', function(event) {
+    
+    if (event.key === 'PageDown') {
+        
+        event.preventDefault();
+    }
+});
+
+document.addEventListener('touchmove', function(event) {
+    
+    event.preventDefault();
+});
+</script>
+
+</body>
+</html>
+
+        
+        <style>
+    body {
+        overflow: hidden;
+    }
+</style>

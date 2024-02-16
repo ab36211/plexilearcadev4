@@ -1,107 +1,46 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PLEXILE ARCADE Loader</title>
-       <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #16181C;
-            overflow: hidden;
-        }
-
-        .loader-container {
-            text-align: center;
-            animation: fadeOut 3s ease-out forwards; /* Adjusted fade-out duration */
-            animation-delay: 4s; /* Delayed start of the fade-out animation */
-            position: relative; /* Added relative positioning */
-        }
-
-        img {
-            color: #b03232;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 4em; /* Adjusted font size */
-            margin-bottom: 15px;
-            position: absolute; /* Positioned the image absolutely */
-            top: 50%; /* Positioned the image vertically in the middle */
-            left: 50%; /* Positioned the image horizontally in the middle */
-            transform: translate(-50%, -110%); /* Centered the image */
-            z-index: 1; /* Ensure image appears above spinner */
-        }
-
-        .spinner {
-            display: inline-block;
-            width: 40px; /* Adjusted spinner size */
-            height: 40px; /* Adjusted spinner size */
-            border: 6px solid rgba(176, 50, 50, 0.3);
-            border-radius: 50%;
-            border-top: 6px solid #b03232;
-            animation: spin 1s linear infinite;
-            margin-top: 1%;
-            z-index: 0; /* Ensure spinner is behind the image */
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        @keyframes fadeOut {
-            0% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-
-        .embed-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #16181C;
-            display: none;
-        }
-
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-</head>
-<body>
+<!DOCTYPE html> 
+<html> 
   
+<head> 
+    <title>PLEXILE ARCADE | iFrame</title> 
+    <style type="text/css"> 
+        html { 
+            overflow: auto; 
+        } 
+          
+        html, 
+        body, 
+        div, 
+        iframe { 
+            margin: 0px; 
+            padding: 0px; 
+            height: 100%; 
+            border: none; 
+        } 
+          
+        iframe { 
+            display: block; 
+            width: 100%; 
+            border: none; 
+            overflow-y: auto; 
+            overflow-x: hidden; 
+        } 
+    </style> 
+</head> 
   
+<body> 
+    <iframe src="https://swormio.glitch.me/bank.html"
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            scrolling="auto"> 
+  </iframe> 
   
-    <div class="loader-container" id="loader">
-        <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321">
-        <div class="spinner"></div>
-    </div>
+</body> 
+  
+</html> 
 
 
-    <div class="embed-container" id="embeddedContent">
-        <iframe src="https://swormio.glitch.me/bank.html" frameborder="0"></iframe>
-  </div>
 
-    <script>
-        // Wait for the loader to fade out and then display the embedded content
-        setTimeout(function() {
-            document.getElementById('loader').style.display = 'none';
-            document.getElementById('embeddedContent').style.display = 'block';
-        }, 7000); // Wait for 4 seconds before starting the fade-out animation
-    </script>
-</body>
-
-</html>
