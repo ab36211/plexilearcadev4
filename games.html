@@ -42,12 +42,7 @@
       <h2>ㅤ</h2>
       <h1>ㅤ</h1>
       
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Boxes</title>
+
     <style>
  body {
             font-family: Arial, sans-serif;
@@ -61,10 +56,10 @@
 .box-container {
             display: flex;
             justify-content: space-around;
-            max-width: 1200px;
-            margin: 20px auto;
+            max-width: 1120px;
+            margin: 0px auto;
             flex-wrap: wrap;
-           /* Your existing CSS styles */
+           
 
     
     
@@ -72,16 +67,15 @@
 
         .box {
             width: calc(14.2857% - 20px); /* Adjusted width for 7 boxes in a row with margin */
-              width: 150px;
-             height: 150px;
+            width: 168px;
+            height: 168px;
             margin: 10px;
             position: relative;
             overflow: hidden;
             cursor: pointer;
             transition: transform 0.2s, border-radius 0.3s;
             border-radius: 15px;
-            background-color: #clear; /* Added background color for better visibility */
-          /* Your existing CSS styles */
+            background-color: #clear; 
 
 
         }
@@ -165,10 +159,10 @@
             margin-left: 1000px;
             top: 1000px;
             cursor: pointer;
-             transform: translate(-83%, -118%);
+             transform: translate(-83%, -116%);
         }
 
-        /* Styles for the button on hover */
+      
         .random-button:hover {
             background-color: #9e2b2b;
             color: #fff;
@@ -181,108 +175,9 @@
     <div class="search-container">
     <input type="text" id="searchInput" placeholder="Search For Games...">
         <button class="random-button" onclick="redirectToRandomLink()">Random</button>
-    <!-- Box container -->
-    <div class="box-container">
- <b style="color: #fff;"><h1><span><b style="color: #b03232;"></span></h1><center><h1></h1></center>
-    <div class="box-container">
-        <div class="box" onclick="location.href='/games/1on1soccer/index.html';">     
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/0c63258c-fa29-42ed-9023-57a753844dc9.image.png?v=1703186342200" alt="Image 1">
-            <div class="overlay">
-                <h3>1 On 1 Soccer</h3>
-            </div>
-        </div>
-      
-        <div class="box" onclick="location.href='/games/1v1.lol/index.html';">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDlvtzYj-rKPNzRVCGh_y-Egvdg3Pfn6RHpIrKigickRpHyby91yoEciFXXqBTlPYVSQ:https://static.wikia.nocookie.net/gamia_gamepedia_en/images/c/c9/1v1LOL.png/revision/latest%3Fcb%3D20210516161122&usqp=CAU" alt="Image 2">
-            <div class="overlay">
-                <h3>1v1.LOL</h3>
-            </div>
-        </div>
+    
 
-        <div class="box" onclick="location.href='/games/2048/index.html';">
-            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/2048.png?v=1692626802631" alt="Image 3">
-            <div class="overlay">
-                <h3>2048</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/Bloxorz/index.html';">
-            <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/635a28ab-c033-41ff-ae31-b0a02523d77c.image.png?v=1702321558396" alt="Image 4">
-            <div class="overlay">
-                <h3>Bloxorz</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/FancyPantsAdventure/1/index.html';">
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/7add796a-1abd-469f-beb6-f88e7561d958.image.png?v=1703187830488" alt="Image 5">
-            <div class="overlay">
-                <h3>Fancy Pants Adventure</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/FancyPantsAdventure/2/index.html';">
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/116501b7-fdac-43d1-94bb-2cfc5baf2682.image.png?v=1703187542037" alt="Image 6">
-            <div class="overlay">
-                <h3>Fancy Pants Adventure 2</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/FancyPantsAdventure/3/index.html';">
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/6abc5e16-538c-4079-87d9-8ad63d1812db.image.png?v=1703187577340" alt="Image 7">
-            <div class="overlay">
-                <h3>Fancy Pants Adventure 3</h3>
-            </div>
-        </div>
-      
-<div class="box" onclick="location.href='/games/achievementunlocked/index.html';">
-            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/achievementunlocked.png?v=1692626839561" alt="Image 2">
-            <div class="overlay">
-                <h3>Achievement Unlocked</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/buritobison/index.html';">
-            <img src="https://cdn.glitch.global/c4e5d701-1f78-4406-8186-e204c0016269/84c69a0b-208a-4fe1-8698-2e9937676ec2.image.png?v=1704762145503" alt="Image 3">
-            <div class="overlay">
-                <h3>Burito Bison</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/ageofwar/index.html';">
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/76f16eaf-058f-438d-9b78-992d04e3d551.image.png?v=1703190159543" alt="Image 4">
-            <div class="overlay">
-                <h3>Age Of War</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/aleinhominid/index.html';">
-            <img src="https://cdn.glitch.global/765ad944-950b-4d3c-ac9b-ca0d69b802e6/Cover.png?v=1693595363779" alt="Image 5">
-            <div class="overlay">
-                <h3>Alien Hominid</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/among-us/index.html';">
-            <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/ef256317-8f49-4b3a-96e6-f0ee54acc31b.image.png?v=1702322195079" alt="Image 6">
-            <div class="overlay">
-                <h3>Among Us</h3>
-            </div>
-        </div>
-
-        <div class="box" onclick="location.href='/games/appel/index.html';">
-            <img src="https://cdn.glitch.global/765ad944-950b-4d3c-ac9b-ca0d69b802e6/Screenshot%202023-09-24%2012.58.44%20PM.png?v=1695578337425https://cdn.glitch.global/7da5eb1d-3cf7-40fd-9c9b-d16e5e5ad6a8/98bfdbda-abb5-4cf8-ae68-2f44a58e7727.image.png?v=1703192581730" alt="Image 7">
-            <div class="overlay">
-                <h3>Appel</h3>
-            </div>
-        </div>
-      
-      <div class="box" onclick="location.href='/games/roblox/index.html';">
-            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/8b8ffdd6-e13c-4a54-aa77-0c3e03cf0301.image.png?v=1702746734661" alt="Image 2">
-            <div class="overlay">
-                <h3>Roblox</h3>
-            </div>
-       </div>
-      
+      <h2>ㅤ</h2>
       
       
  <!DOCTYPE html> 
@@ -410,7 +305,7 @@
       <div class="box" onclick="location.href='/games/fortnite/index.html';">
             <img src="https://cdn.glitch.global/67929492-b855-4534-b093-19858b7afd02/c9aa0ce3-36ae-4a33-bdc1-b827d554ed7d.image.png?v=1706760408684" alt="Image 2">
             <div class="overlay">
-                <h3>Forntite</h3>
+                <h3>Fortnite</h3>
             </div>
         </div>
 
@@ -750,10 +645,10 @@
             </div>
         </div>
 
-        <div class="box" onclick="location.href='/games/astray/index.html';">
-            <img src="https://cdn.glitch.global/7da5eb1d-3cf7-40fd-9c9b-d16e5e5ad6a8/98bfdbda-abb5-4cf8-ae68-2f44a58e7727.image.png?v=1703192581730" alt="Image 3">
+        <div class="box" onclick="location.href='/games/rl2d/index.html';">
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/282f7d53-b282-4021-935e-78fab92878e4.image.png?v=1708196728168" alt="Image 3">
             <div class="overlay">
-                <h3>Astray</h3>
+                <h3>Rocket League 2D</h3>
             </div>
         </div>
 
@@ -1022,8 +917,115 @@
                 <h3>Basket Bros</h3>
             </div>
         </div>
-    </div>    
-    
+      </div>   
+   
+    <div class="box-container">
+        <div class="box" onclick="location.href='/games/1on1soccer/index.html';">     
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/0c63258c-fa29-42ed-9023-57a753844dc9.image.png?v=1703186342200" alt="Image 1">
+            <div class="overlay">
+                <h3>1 On 1 Soccer</h3>
+            </div>
+        </div>
+      
+        <div class="box" onclick="location.href='/games/1v1.lol/index.html';">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDlvtzYj-rKPNzRVCGh_y-Egvdg3Pfn6RHpIrKigickRpHyby91yoEciFXXqBTlPYVSQ:https://static.wikia.nocookie.net/gamia_gamepedia_en/images/c/c9/1v1LOL.png/revision/latest%3Fcb%3D20210516161122&usqp=CAU" alt="Image 2">
+            <div class="overlay">
+                <h3>1v1.LOL</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/2048/index.html';">
+            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/2048.png?v=1692626802631" alt="Image 3">
+            <div class="overlay">
+                <h3>2048</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/Bloxorz/index.html';">
+            <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/635a28ab-c033-41ff-ae31-b0a02523d77c.image.png?v=1702321558396" alt="Image 4">
+            <div class="overlay">
+                <h3>Bloxorz</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/FancyPantsAdventure/1/index.html';">
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/7add796a-1abd-469f-beb6-f88e7561d958.image.png?v=1703187830488" alt="Image 5">
+            <div class="overlay">
+                <h3>Fancy Pants Adventure</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/FancyPantsAdventure/2/index.html';">
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/116501b7-fdac-43d1-94bb-2cfc5baf2682.image.png?v=1703187542037" alt="Image 6">
+            <div class="overlay">
+                <h3>Fancy Pants Adventure 2</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/FancyPantsAdventure/3/index.html';">
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/6abc5e16-538c-4079-87d9-8ad63d1812db.image.png?v=1703187577340" alt="Image 7">
+            <div class="overlay">
+                <h3>Fancy Pants Adventure 3</h3>
+            </div>
+        </div>
+      
+<div class="box" onclick="location.href='/games/achievementunlocked/index.html';">
+            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/achievementunlocked.png?v=1692626839561" alt="Image 2">
+            <div class="overlay">
+                <h3>Achievement Unlocked</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/buritobison/index.html';">
+            <img src="https://cdn.glitch.global/c4e5d701-1f78-4406-8186-e204c0016269/84c69a0b-208a-4fe1-8698-2e9937676ec2.image.png?v=1704762145503" alt="Image 3">
+            <div class="overlay">
+                <h3>Burito Bison</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/ageofwar/index.html';">
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/76f16eaf-058f-438d-9b78-992d04e3d551.image.png?v=1703190159543" alt="Image 4">
+            <div class="overlay">
+                <h3>Age Of War</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/aleinhominid/index.html';">
+            <img src="https://cdn.glitch.global/765ad944-950b-4d3c-ac9b-ca0d69b802e6/Cover.png?v=1693595363779" alt="Image 5">
+            <div class="overlay">
+                <h3>Alien Hominid</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/among-us/index.html';">
+            <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/ef256317-8f49-4b3a-96e6-f0ee54acc31b.image.png?v=1702322195079" alt="Image 6">
+            <div class="overlay">
+                <h3>Among Us</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='/games/appel/index.html';">
+            <img src="https://cdn.glitch.global/765ad944-950b-4d3c-ac9b-ca0d69b802e6/Screenshot%202023-09-24%2012.58.44%20PM.png?v=1695578337425https://cdn.glitch.global/7da5eb1d-3cf7-40fd-9c9b-d16e5e5ad6a8/98bfdbda-abb5-4cf8-ae68-2f44a58e7727.image.png?v=1703192581730" alt="Image 7">
+            <div class="overlay">
+                <h3>Appel</h3>
+            </div>
+        </div>
+      
+      <div class="box" onclick="location.href='/games/roblox/index.html';">
+            <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/8b8ffdd6-e13c-4a54-aa77-0c3e03cf0301.image.png?v=1702746734661" alt="Image 2">
+            <div class="overlay">
+                <h3>Roblox</h3>
+            </div>
+       </div>
+      
+      <div class="box" onclick="location.href='/games/fnaf/4/index.html';">
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/thumbnails%2Fd45d9eca-4eaf-4ef3-9540-ac585cae7604.image.png?1708202308404" alt="Image 2">
+            <div class="overlay">
+                <h3>FNAF 4</h3>
+            
+      
+      
+      
       
       <br>
 
@@ -1056,7 +1058,7 @@
  <script>
         
         function redirectToRandomLink() {
-            // Array of 20 links
+            
             var links = [
                 '/games/1v1soccer/index.html',
                 '/games/aleinhominid/index.html',
@@ -1111,19 +1113,13 @@
 </html>
   
   
-  
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snow Background</title>
+
   <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
   <div class="snow-container"></div>
 
-    <!-- Snowflakes will be added dynamically here -->
+    
   </div>
   <script src="script.js"></script>
 </body>

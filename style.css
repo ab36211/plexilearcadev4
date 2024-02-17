@@ -5,7 +5,7 @@ body {
 
 #credits-container  {
 
-/* Header styles */
+
 header {
     background-color: #b03232;
     padding: 20px;
@@ -15,12 +15,12 @@ header {
     margin-bottom: 20px;
 }
 
-/* Section styles */
+
 section {
     margin-bottom: 35px;
 }
 
-/* Apply the main color to buttons */
+
 button, .btn {
     background-color: #b03232;
     color: #fff;
@@ -33,10 +33,10 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    transform: scale(1.1); /* Slightly scale up on hover */
+    transform: scale(1.1); 
 }
 
-/* Apply the main color to links */
+
 a {
     color: #b03232;
     text-decoration: none;
@@ -45,14 +45,14 @@ a {
 
 
 
-/* Apply the main color to headings */
+
 h1, h2, h3, h4, h5, h6 {
     color: #b03232;
     text-align: center;
     margin-bottom: 15px;
 }
 
-/* Apply the main color to form elements */
+
 input, textarea {
     border: 1px solid #b03232;
     width: 100%;

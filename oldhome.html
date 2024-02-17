@@ -19,7 +19,7 @@
 <body>
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Replace "favicon.png" with your actual favicon image file name -->
+     
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/tos.css" />
@@ -57,7 +57,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title></title>
 <script>
-    // List of random texts
+  
     const randomTexts = [
         "YOU ARE GETTING SOLD TO THE BLACK MARKET!",
         "you are a GAY person...",
@@ -160,14 +160,14 @@
         "I got doxxed."
     ];
 
-    // Function to generate and display random text
+    
     function generateRandomText() {
         const randomIndex = Math.floor(Math.random() * randomTexts.length);
         const randomText = randomTexts[randomIndex];
         document.getElementById("random-text").textContent = randomText;
     }
 
-    // Generate random text when the page loads
+    
     window.onload = generateRandomText;
 </script>
 </head>
@@ -229,13 +229,12 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0; /* Adjusted background color */
-/* All text is black */
+            background-color: #f0f0f0; 
         }
 
         .header {
-           background-color: #12161D; /* Change the color of the rectangle box here */
-            color: #fff; /* Text color inside the rectangle box is white */
+           background-color: #12161D; 
+            color: #fff; 
             text-align: center;
             padding: 15px 0;
             position: fixed;
@@ -252,13 +251,13 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start; /* Align icons to the left */
-            margin-left: 10px; /* Add some margin for better spacing */
+            align-items: flex-start; 
+            margin-left: 10px; 
         }
 
         .header-icons i {
-            font-size: 40px; /* Adjust icon size as needed */
-            margin-bottom: 10px; /* Spacing between icons */
+            font-size: 40px; 
+            margin-bottom: 10px; 
             cursor: pointer;
             transition: transform 0.2s;
         }
@@ -268,16 +267,16 @@
         }
 
         #plexile-arcade {
-            font-size: 28px; /* Made PLEXILE ARCADE text a bit longer */
+            font-size: 28px;
             font-weight: bold;
-            color: #b03232; /* Color of PLEXILE ARCADE text */
+            color: #b03232; 
         }
 
         #copyright {
             font-size: 14px;
             margin-top: 10px;
-            font-weight: bold; /* Increased font weight */
-            color: #b03232; /* Color of C Copyright PLEXILE ARCADE text */
+            font-weight: bold; 
+            color: #b03232; 
             cursor: pointer;
             transition: color 0.2s, transform 0.2s;
         }
@@ -308,7 +307,7 @@
 
     <script>
         function openCreditsURL() {
-            // Replace 'your_credits_url' with the actual URL you want to link to
+            
             window.location.href = '/copyright.html';
         }
     </script>
