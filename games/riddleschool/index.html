@@ -12,28 +12,68 @@
   
 </head>
 
+<link rel="stylesheet" href="/css/navbare.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
 <body>
-    <div class="button-container">
-        <!-- Back Button -->
-        <button class="control-btn back-btn" onclick="goBack()"></button>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+   <a href="/index.html" class="logo"> <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321">
+        <h6>ㅤ</h6>
+     <ul class="nav-links">
+         <i class="uil uil-times navCloseBtn"></i>
+          
+         <li><a href="/index.html"><i class="" style="margin-right: 255px;"></i>HOME⠀</a></li>
+         <li><a href="/games.html"><i class="" style="margin-right: 10px;"></i>GAMES⠀</a></li>
+         <li><a href="/about.html"><i class="" style="margin-right: 10px;"></i>APPS⠀</a></li>
+         <li><a href="/location.html"><i class="" style="margin-right: 10px;"></i>PROXY⠀</a></li>
+         <li><a href="/settings.html"><i class="fa-solid fa-gear" style="margin-right: 5px;"></i></a></li>
+      </ul>
+      </nav>
+      
+  
+  
+  
+</head>
+<body>
 
-        <!-- Fullscreen Button -->
-        <button class="control-btn fullscreen-btn" onclick="goFullscreen()"></button>
-
-        <!-- Report Issue Button -->
-        <button class="control-btn report-btn" onclick="reportIssue()"></button>
+<div class="container">
+    <div class="box">
+        <div class="embed-container">
+            
+            <iframe id="fullscreen-iframe" src="/gamesloader/riddleschool/index.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="content-below-embed">
+            <div class="overlay">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvShgcY_8JHtc_5HYPZ4txsPWqbOVDDdFkO9YPgVPRW2L7qSA6oRuL7Q-32rCRd5ydFsg:https://a.silvergames.com/j/b/riddle-transfer.jpg%3Ftr%3Dw-140&usqp=CAU" alt="Image">
+                <div class="text">Riddle School</div>
+            </div>
+            <img class="fullscreen-img" src="https://cdn.glitch.global/d22fc211-b7eb-4ca5-b55c-e751ea120936/download-removebg-preview.png?v=1708121659301" alt="Fullscreen" onclick="toggleFullscreen()">
+      </div>
     </div>
+</div>
 
-    <!-- Embed Page -->
-    <div class="embed-container">
-        <iframe src="/gamesloader/riddleschool/index.html" frameborder="0"></iframe>
-    </div>
-
-    
-</body>
-
-</html>
-<script src="/js/buttons.js">
+<script>
+    function toggleFullscreen() {
+        var elem = document.getElementById("fullscreen-iframe");
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+            elem.msRequestFullscreen();
+        }
+    }
 </script>
 
+</body>
+</html>
+
+<script src="/script7.js"></script> 
 <script src="/panicbutton.js"></script>
+<script src="/themes.js"></script> 
