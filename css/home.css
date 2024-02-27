@@ -1,7 +1,7 @@
 body {
             margin: 0;
             padding: 0;
-            background-image: url('https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/background.png?v=1702599189341'); /* Replace with your actual background URL */
+            background-image: url('https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/background.png?v=1702599189341'); 
             background-size: cover;
             background-position: center;
             height: 100vh;
