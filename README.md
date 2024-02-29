@@ -20,3 +20,18 @@ https://discord.gg/XYyFBXTZnn
 Deploying PLEXILE ARCADE couldn't have gotten more easier then this! just pick from any of the providers listed to get a easy website. <br><br><br>
 
 <a target="_blank" href="https://replit.com/github/AnthonyIsHIMLOLZ/plexilearcadev4"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"> </a><a target="_blank" href="https://vercel.com/new/clone?repository-url=https://replit.com/github/AnthonyIsHIMLOLZ/plexilearcadev4"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"> </a><a target="_blank" href="https://glitch.com/edit/#!/import/github/AnthonyIsHIMLOLZ/plexilearcadev4"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/official/glitch.svg"></a> <a target="_blank" href="https://app.netlify.com/start/deploy?repository=https://github.com/AnthonyIsHIMLOLZ/plexilearcadev4"><img alt="Deploy to Netlify" src="https://binbashbanana.github.io/deploy-buttons/buttons/official/netlify.svg"> </a><a target="_blank" href="https://render.com/deploy?repo=https://github.com/AnthonyIsHIMLOLZ/plexilearcadev4"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/official/render.svg"></a>
+
+
+
+
+License
+This project is licensed under the MIT License. Skidding will not be tolerated and will get you banned from our Discord.
+
+Disclamer
+We take no credit for the making of UV. Ultraviolet is made by TN. We also take no credit for the making of Dynamic. Dynamic is made by Nebula.
+
+
+Credits
+Thank you to the following people for contributing to Night Network!
+
+
