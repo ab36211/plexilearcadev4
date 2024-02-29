@@ -24,14 +24,7 @@ Deploying PLEXILE ARCADE couldn't have gotten more easier then this! just pick f
 
 
 
-License
-This project is licensed under the MIT License. Skidding will not be tolerated and will get you banned from our Discord.
-
-Disclamer
-We take no credit for the making of UV. Ultraviolet is made by TN. We also take no credit for the making of Dynamic. Dynamic is made by Nebula.
-
-
-Credits
+# Credits
 Thank you to the following people for contributing to Night Network!
 
 
