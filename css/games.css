@@ -1,6 +1,7 @@
 .container {
-        width: 1200px; 
+        width: 1000px; 
         margin: 0 auto;
+        
     }
     .box {
         position: relative;
@@ -9,9 +10,10 @@
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 35px;
-        width: 1200px; 
+        width: 1090px;
         box-sizing: border-box;
-        top: 150px;
+        top: 129px;
+        right: 150px;
     }
     .embed-container {
         top: 0px;
@@ -105,3 +107,6 @@ body {
     transform: translate(4px, 4px);
   }
 }
+
+  
+  

@@ -1,78 +1,592 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>PLEXILE ARCADE | Proxy</title>
-      <link rel="icon" type="image/png" href="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/0ab56e19-2879-494d-8a3f-f79afb755ec1.image-fotor-bg-remover-20240127224610.png?v=1706417182506">
-</head>
-<body>
-    <!-- Your page content here -->
-</body>
-</html>
-
-    <title>PLEXILE ARCADE</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/scrollbar.css" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2W1BSNMG9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y2W1BSNMG9');
-</script>
-  <title>Platformer.io | Tomb of the Mask</title>
-  <link rel="icon" href="/favicon.png" type="image/xcon" />
-  <script src="/js/navbar.js" defer></script>
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <nav class="nav">
-      <i class="uil uil-bars navOpenBtn"></i>
-   <a href="index.html" class="logo"> <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321">
-        <h6>ㅤ</h6>
-     <ul class="nav-links">
-         <i class="uil uil-times navCloseBtn"></i>
-          <h1>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h1>
-         <li><a href="index.html"><i class="" style="margin-right: 0px;"></i>HOME⠀</a></li>
-         <li><a href="games.html"><i class="" style="margin-right: 5px;"></i>GAMES⠀</a></li>
-         <li><a href="about.html"><i class="" style="margin-right: 5px;"></i>APPS⠀</a></li>
-         <li><a href="location.html"><i class="" style="margin-right: 5px;"></i>PROXY⠀</a></li>
-         <li><a href="settings.html"><i class="fa-solid fa-gear" style="margin-right: 5px;"></i></a></li>
-      </ul>
-      </nav>
-    .  
-<div class="main-content"> 
-
- 
-
-  <iframe style="margin-top: 80px; width: 100%; border: none; height: calc(100vh - 80px);" src="https://freeaffordableschooltutoring1.dcmusic.ca/"></iframe>
-</body>
-</html>
-
-  <script>
-  </script>
-  <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEXILE ARCADE | Proxy</title>
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/0ab56e19-2879-494d-8a3f-f79afb755ec1.image-fotor-bg-remover-20240127224610.png?v=1706417182506">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
   
-    
-<script src="/panicbutton.js"></script>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+body {
+  background: #16181c;
+  font-weight: 400;
+}
+  
+        .nav {
+            position: fixed;
+            top: 20px;
+            left: 13px;
+            width: 98%;
+            border-radius: 25px;
+            background-color: #12161D;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 7vw; 
+            z-index: 1000; 
+        }
+        .nav .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0; 
+            justify-content: center;
+            align-items: center; 
+            margin-left: -100px; 
+        }
+        .nav .nav-links .nav-item {
+            font-size: 20px;
+            color: #b03232;
+            text-decoration: none;
+            transition: color 0.2s linear;
+            margin-right: 32px; 
+            font-family: 'Inter', sans-serif; 
+            font-weight: bold; 
+            letter-spacing: 2px; 
+        }
+        .nav .nav-links .nav-item:last-child {
+            margin-right: 100; 
+        }
+        .nav .nav-links .nav-item:hover {
+            color: #892929;
+        }
+        .nav .logo {
+            margin-right: auto;
+            margin-bottom: 20px;
+          margin-left: 30px;
+        }
+        .nav .logo img {
+            height: 128px;
+        }
+        
     
-             </style>
+      .nav-links {
+        
+      margin-right: 10;
+      
+      }
 
-    <style type="text/css">
+
+select {
+  background: #27292e;
+  font-family: 'Montserrat';
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  transition: 300ms;
+}
+
+label {
+  font-family: 'Inter';
+}
+
+select:active {
+  transform: scale(1.05);
+}
+
+option {
+  font-family: 'Inter';
+  color: #b03232;
+  padding: 5px;
+}
+
+
+        #copyright {
+            font-size: 14px;
+            margin-top: 2px;
+            font-weight: bold; /* Increased font weight */
+            color: #b03232; /* Color of C Copyright PLEXILE ARCADE text */
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        #copyright:hover {
+            animation: shake 0.5s;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(5px); }
+
+  
+  </style>
+<style>
+.container {
+        width: 1000px; 
+        margin: 0 auto;
+        
+    }
+    .box {
+        position: relative;
+        background-color: #12161D;
+        border: none;
+        border-radius: 10px;
+        padding: 8px;
+        margin-bottom: 35px;
+        width: 1250px; 
+        margin-left: 20px;
+        box-sizing: border-box;
+        top: 130px;
+        right: 150px;
+    }
+  
+    .embed-container {
+        top: 0px;
+        position: relative;
+        padding-bottom: 40.25%; 
+        height: 0;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       border-radius: 10px;
+    }
+    .content-below-embed {
+        margin-top: 20px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .overlay {
+        display: flex;
+        align-items: center;
+    }
+    .image {
+        
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+    .text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .fullscreen-img {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+  
       body {
         cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"),
           auto;
       }
-    </style>
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.glitch.global/8ccf4cfa-741f-4630-8f29-733b36d972e6/f97cae64-03b4-4b89-94ec-0dacf077ea89.image.png?v=1705798388344') center/cover no-repeat; /* Add your background image */
+    color: White;
+
+.snowball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #b03232; 
+  border-radius: 50%;
+  pointer-events: none; 
+  z-index: -1; 
+  opacity: 0.6; 
+  animation: snowdrift 8s infinite alternate; 
+}
+
+.transparent {
+  opacity: 0.4; 
+}
+
+.light {
+  background-color: #f5aaaa; 
+}
+
+.small {
+  width: 5px;
+  height: 5px;
+}
+
+@keyframes snowdrift {
+  0% {
+    transform: translate(-4px, -4px);
+  }
+  100% {
+    transform: translate(4px, 4px);
+  }
+}
+    
+</style>
+ <style>
+    ::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16181C;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b03232;
+  border-radius: 15px;
+  height: 2px;
+}
+  </style>
   
   <style>
-    body {
-        overflow: hidden;
+        .content-below-embed {
+            position: relative;
+        }
+
+        .fullscreen-img,
+        .share-img,
+        .reload-img {
+            position: absolute;
+            top: -10px; 
+            right: 10px; 
+            cursor: pointer;
+            width: 24px; 
+            height: auto; 
+        }
+
+        .share-img {
+            right: 84px; 
+        }
+
+        .reload-img {
+            right: 50px; 
+        }
+      
+      
+      
+      </style>
+       <style>
+  body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #16181C;
+        }
+
+        
+.box-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1130px;
+            margin: 0px auto;
+            flex-wrap: wrap;
+           
+
+    
+    
+        }
+
+        .box1 {
+            
+            width: 164px;
+            height: 164px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            top: -423px;
+            left: 1148px;
+            cursor: pointer;
+            transition: transform 0.2s, border-radius 0.3s;
+            border-radius: 15px;
+            background-color: #clear; 
+
+
+        }
+
+        .box1:hover {
+            transform: scale(1.1);
+            border-radius: 0;
+        }
+
+        .box1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .box1 .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 15px;
+        }
+
+        .box1:hover .overlay {
+            opacity: 1;
+      }
+
+     
+      #fullscreen-iframe {
+            width: 100%;
+            height: 100%;
+        }
+  
+  
+          
+      
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="nav-item">HOME</a></li>
+            <li><a href="/games.html" class="nav-item">GAMES</a></li>
+            <li><a href="/about.html" class="nav-item">APPS</a></li>
+            <li><a href="/location.html" class="nav-item">PROXY</a></li>
+            <li><a href="/settings.html" class="nav-item"><i class="fas fa-gear"></i></a></li>ㅤ
+        </ul>
+    </nav>
+</body>
+
+    <div class="container">
+        <div class="box">
+            <div class="embed-container">
+                <iframe id="fullscreen-iframe" src="/proxy.html" frameborder="0" allowfullscreen></iframe>
+
+
+  
+  
+                
+
+      
+  
+
+  
+  
+
+    <script>
+        function toggleFullscreen() {
+            var elem = document.getElementById("fullscreen-iframe");
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function copyLink() {
+            var url = window.location.href;
+            navigator.clipboard.writeText(url).then(function() {
+                alert("Link copied to clipboard!");
+            }, function() {
+                alert("Failed to copy link to clipboard!");
+            });
+        }
+
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+  
+
+    <script src="/script7.js"></script> 
+    <script src="/panicbutton.js"></script>
+    <script src="/themes.js"></script>
+</body>
+
+</html>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  const numSnowballs = 300; 
+  const body = document.body;
+  const padding = 50; 
+  
+  for (let i = 0; i < numSnowballs; i++) {
+    const snowball = document.createElement("div");
+    snowball.classList.add("snowball");
+
+   
+    const x = Math.random() * (window.innerWidth - 2 * padding) + padding;
+    const y = Math.random() * (window.innerHeight + 0); 
+    snowball.style.left = `${x}px`;
+    snowball.style.top = `${y}px`;
+
+  
+    const size = Math.random() * 10 + 5;
+    snowball.style.width = `${size}px`;
+    snowball.style.height = `${size}px`;
+
+  
+    if (Math.random() < 0.8) {
+      snowball.classList.add("transparent");
     }
-</style>
+
+   
+    if (Math.random() < 0.3) {
+      snowball.classList.add("light");
+    }
+
+    
+    if (Math.random() < 0.5) {
+      snowball.classList.add("small");
+    }
+
+    body.appendChild(snowball); 
+  }
+});
+
+</script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+  .popup {
+    position: fixed;
+    top: 142px; /* Adjusted top position */
+    left: -200px; /* Starting position off-screen */
+    background-color: #12161D;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    transition: left 0.5s ease; /* Add transition effect for left position */
+  }
+        
+  #fullscreen-btn {
+  background-color: inherit; /* Inherit background color from popup */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  padding: 8px 12px; /* Adjust padding */
+  cursor: pointer; /* Change cursor to pointer */
+  border-radius: 3px; /* Add border-radius */
+  font-weight: bold; /* Make the text thicker */
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+
+}
+
+#fullscreen-btn:hover {
+  transform: scale(1.05);
+        
+  }     
+
+  #embed-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 9998;
+    overflow: hidden;
+    transition: opacity 0.3s ease; /* Add transition effect */
+  }
+
+  #embed-container.active {
+    display: block;
+  }
+
+  #embed-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+</head>
+<body>
+  <div id="fullscreen-popup" class="popup">
+    <button id="fullscreen-btn">Enter Fullscreen</button>
+  </div>
+  <div id="embed-container"></div>
+  
+  <script>
+  const popup = document.getElementById('fullscreen-popup');
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  const embedContainer = document.getElementById('embed-container');
+
+  fullscreenBtn.addEventListener('click', () => {
+    if (document.fullscreenElement) {
+      exitFullscreen();
+    } else {
+      enterFullscreen();
+    }
+  });
+
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement) {
+      embedContainer.classList.remove('active');
+      popup.style.left = '-200px'; // Slide the popup back off-screen
+    }
+  });
+
+  // Animate the popup sliding in from the left when the page loads
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      popup.style.left = '60px'; // Slide the popup into view
+    }, 500); // Delay the animation for 0.5 seconds
+  });
+
+  function enterFullscreen() {
+    embedContainer.innerHTML = `<iframe src="/proxy.html" frameborder="0"></iframe>`;
+    document.body.appendChild(embedContainer);
+    embedContainer.classList.add('active');
+    popup.style.left = '-200px'; // Slide the popup off-screen when entering fullscreen
+    embedContainer.requestFullscreen();
+  }
+
+  function exitFullscreen() {
+    document.exitFullscreen();
+  }
+  </script>
+
+    
+ <script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
+  <script type='text/javascript' src='//pl22767577.profitablegatecpm.com/d2/67/d4/d267d430ca1da1e017a49cd2d7e28673.js'></script>
