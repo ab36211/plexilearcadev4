@@ -5,84 +5,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLEXILE ARCADE | Android Simulator</title>
-      <link rel="icon" type="image/png" href="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/0ab56e19-2879-494d-8a3f-f79afb755ec1.image-fotor-bg-remover-20240127224610.png?v=1706417182506">
-  
-  <link rel="stylesheet" href="/css/scrollbar.css" />
-  <link rel="stylesheet" href="/css/games.css" />
-  
-</head>
-
-  
-  
-   <link rel="stylesheet" href="/css/navbare.css">
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/0ab56e19-2879-494d-8a3f-f79afb755ec1.image-fotor-bg-remover-20240127224610.png?v=1706417182506">
+    <link rel="stylesheet" href="/css/scrollbar.css" />
+    <link rel="stylesheet" href="/css/games.css" />
+    <link rel="stylesheet" href="/css/navbare.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .content-below-embed {
+            position: relative;
+        }
+
+        .fullscreen-img,
+        .share-img,
+        .reload-img {
+            position: absolute;
+            top: 10px; 
+            right: 10px; 
+            cursor: pointer;
+            width: 25px; 
+            height: auto; 
+        }
+
+        .share-img {
+            right: 98px; 
+        }
+
+        .reload-img {
+            right: 57px; 
+        }
+      
+      
+      
+      
+       <style>
+ body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #16181C;
+        }
+
+        
+.box-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1130px;
+            margin: 0px auto;
+            flex-wrap: wrap;
+           
+
+    
+    
+        }
+
+        .box1 {
+            
+            width: 164px;
+            height: 164px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            top: -423px;
+            left: 1148px;
+            cursor: pointer;
+            transition: transform 0.2s, border-radius 0.3s;
+            border-radius: 15px;
+            background-color: #clear; 
 
 
+        }
+
+        .box1:hover {
+            transform: scale(1.1);
+            border-radius: 0;
+        }
+
+        .box1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .box1 .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 15px;
+        }
+
+        .box1:hover .overlay {
+            opacity: 1;
+      }
+
+     
+      #fullscreen-iframe {
+            width: 100%;
+            height: 100%;
+        }
+  
+      
+    body {
+        overflow: hidden;
+    }
+          
+      
+    </style>
 </head>
+
 <body>
     <nav class="nav">
-      <i class="uil uil-bars navOpenBtn"></i>
-   <a href="/index.html" class="logo"> <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321">
-        <h6>ㅤ</h6>
-     <ul class="nav-links">
-         <i class="uil uil-times navCloseBtn"></i>
-          
-         <li><a href="/index.html"><i class="" style="margin-right: 255px;"></i>HOME⠀</a></li>
-         <li><a href="/games.html"><i class="" style="margin-right: 10px;"></i>GAMES⠀</a></li>
-         <li><a href="/about.html"><i class="" style="margin-right: 10px;"></i>APPS⠀</a></li>
-         <li><a href="/location.html"><i class="" style="margin-right: 10px;"></i>PROXY⠀</a></li>
-         <li><a href="/settings.html"><i class="fa-solid fa-gear" style="margin-right: 5px;"></i></a></li>
-      </ul>
-      </nav>
-
-  
-  
-  
-  
-  
-</head>
-<body>
-
-<div class="container">
-    <div class="box">
-        <div class="embed-container">
-            
-            <iframe id="fullscreen-iframe" src="/appsloader/android/index.html" frameborder="0" allowfullscreen></iframe>
+        <div class="logo">
+            <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321" alt="Logo">
         </div>
-        <div class="content-below-embed">
-            <div class="overlay">
-                <img class="image" src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/eb8034d0-ad7e-4fbd-9a43-b5e25d4762d2.image.png?v=1702840774203" alt="Image">
-                <div class="text">Android Simulator</div>
-            </div>
-            <img class="fullscreen-img" src="https://cdn.glitch.global/d22fc211-b7eb-4ca5-b55c-e751ea120936/download-removebg-preview.png?v=1708121659301" alt="Fullscreen" onclick="toggleFullscreen()">
-      </div>
-    </div>
-</div>
-
-<script>
-    function toggleFullscreen() {
-        var elem = document.getElementById("fullscreen-iframe");
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        } else if (elem.mozRequestFullScreen) {
-            elem.mozRequestFullScreen();
-        } else if (elem.webkitRequestFullscreen) {
-            elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) {
-            elem.msRequestFullscreen();
-        }
-    }
-</script>
-
+        <ul class="nav-links">
+            <li><a href="/" class="nav-item">HOME</a></li>
+            <li><a href="/games.html" class="nav-item">GAMES</a></li>
+            <li><a href="/about.html" class="nav-item">APPS</a></li>
+            <li><a href="/location.html" class="nav-item">PROXY</a></li>
+            <li><a href="/settings.html" class="nav-item"><i class="fas fa-gear"></i></a></li>ㅤ
+        </ul>
+    </nav>
 </body>
+
+    <div class="container">
+        <div class="box">
+            <div class="embed-container">
+                <iframe id="fullscreen-iframe" src="/appsloader/android/index.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="content-below-embed">
+                <div class="overlay">
+                    <img class="image" src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/eb8034d0-ad7e-4fbd-9a43-b5e25d4762d2.image.png?v=1702840774203" alt="Image">
+                    <div class="text">Android Simulator</div>
+                </div>
+                             
+              
+                <img class="reload-img" src="https://cdn.glitch.global/c3a313d1-d671-46a6-9112-0ae9062ea3d2/download.png?v=1709878442037" alt="Reload" onclick="reloadPage()">
+                <img class="share-img" src="https://cdn.glitch.global/c3a313d1-d671-46a6-9112-0ae9062ea3d2/images.png?v=1709878554833" alt="Share" onclick="copyLink()">
+                <img class="fullscreen-img" src="https://cdn.glitch.global/d22fc211-b7eb-4ca5-b55c-e751ea120936/download-removebg-preview.png?v=1708121659301" alt="Fullscreen" onclick="toggleFullscreen()">
+            </div>
+        </div>
+    </div>
+
+  
+  
+                
+
+        <div class="box1" onclick="location.href='/apps/reddit/index.html';">
+            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/reddit.jpg?v=16926268415911" alt="Image 4">
+            <div class="overlay">
+                <h3>Reddit</h3>
+            </div>
+        </div>
+
+        <div class="box1" onclick="location.href='/apps/discord/index.html';">
+            <img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/discord-app.jpg" alt="Image 5">
+            <div class="overlay">
+                <h3>Discord</h3>
+            </div>
+        </div>
+
+        <div class="box1" onclick="location.href='/apps/youtube/index.html';">
+            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/youtube.png?v=1692626838634" alt="Image 6">
+            <div class="overlay">
+                <h3>Youtube</h3>
+            </div>
+        </div>
+  
+
+  
+  
+
+    <script>
+        function toggleFullscreen() {
+            var elem = document.getElementById("fullscreen-iframe");
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function copyLink() {
+            var url = window.location.href;
+            navigator.clipboard.writeText(url).then(function() {
+                alert("Link copied to clipboard!");
+            }, function() {
+                alert("Failed to copy link to clipboard!");
+            });
+        }
+
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+  
+
+    <script src="/script7.js"></script> 
+    <script src="/panicbutton.js"></script>
+    <script src="/themes.js"></script>
+</body>
+
 </html>
 
-<script src="/script7.js"></script> 
-<script src="/panicbutton.js"></script>
-<script src="/themes.js"></script> 
 
 
-  
 
-  
+ <script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
+  <script type='text/javascript' src='//pl22767577.profitablegatecpm.com/d2/67/d4/d267d430ca1da1e017a49cd2d7e28673.js'></script>  

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const numSnowballs = 100; 
+  const numSnowballs = 200; 
   const body = document.body;
   const padding = 50; 
   
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
    
     const x = Math.random() * (window.innerWidth - 2 * padding) + padding;
-    const y = Math.random() * (window.innerHeight + 64); 
+    const y = Math.random() * (window.innerHeight + 10); 
     snowball.style.left = `${x}px`;
     snowball.style.top = `${y}px`;
 

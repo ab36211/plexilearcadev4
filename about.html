@@ -11,26 +11,24 @@
     <link rel="stylesheet" href="/css/tos.css" />
   <link rel="stylesheet" href="/css/scrollbar.css" />
         <script src="/js/search.js"></script>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
 <body>
     <nav class="nav">
-      <i class="uil uil-bars navOpenBtn"></i>
-   <a href="index.html" class="logo"> <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321">
-        <h6>ㅤ</h6>
-     <ul class="nav-links">
-         <i class="uil uil-times navCloseBtn"></i>
-          
-         <li><a href="index.html"><i class="" style="margin-right: 255px;"></i>HOME⠀</a></li>
-         <li><a href="games.html"><i class="" style="margin-right: 10px;"></i>GAMES⠀</a></li>
-         <li><a href="about.html"><i class="" style="margin-right: 10px;"></i>APPS⠀</a></li>
-         <li><a href="location.html"><i class="" style="margin-right: 10px;"></i>PROXY⠀</a></li>
-         <li><a href="settings.html"><i class="fa-solid fa-gear" style="margin-right: 5px;"></i></a></li>
-      </ul>
-      </nav>
+        <div class="logo">
+            <img src="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/IOojLd_43FOS6OoUQ1Lal-transformed.png?v=1706417073321" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="nav-item">HOME</a></li>
+            <li><a href="/games.html" class="nav-item">GAMES</a></li>
+            <li><a href="/about.html" class="nav-item">APPS</a></li>
+            <li><a href="/location.html" class="nav-item">PROXY</a></li>
+            <li><a href="/settings.html" class="nav-item"><i class="fas fa-gear"></i></a></li>ㅤ
+        </ul>
+    </nav>
+</body>
 
 
       
@@ -45,11 +43,11 @@
 
     <style>
  body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif;  /* google, youtube, ytm, tiktok are all shadow proxied every other 1 are not. */
             width: 100%;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #16181C;
         }
 
         
@@ -66,7 +64,7 @@
         }
 
         .box {
-            width: calc(14.2857% - 20px); /* Adjusted width for 7 boxes in a row with margin */
+            width: calc(14.2857% - 20px);
             width: 168px;
             height: 168px;
             margin: 10px;
@@ -114,42 +112,45 @@
             opacity: 1;
         }
       
-       .search-container {
-           
-            
-        }
-         .search-container input {
-            background: #27292e;
-            border: none;
-            width: 100%;
-            padding: 10px;
-            outline: none;
-            border-radius: 25px;
-            font-size: 15px;
-            font-weight: bold;
-            text-align: center;
-            height: 45px; 
-           
- 
+      .search-container {
+    position: relative;
+}
 
-            background: #27292e;
-            display: flex;
-            flex-direction: row;
-            border: 2px solid #b03232;
-            border-radius: 100px;
-            padding: 1px;
-            height: 45px;
-            width: 600px;
-            align-items: center; 
-           
-           
-           position: absolute;
-            top: 225px;
-            left: 50%;
-            transform: translate(-60%, -50%);
-            z-index: 1; /
-      
-        }
+.search-container input {
+    background: #27292e;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    height: 45px; 
+    background: #27292e;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #b03232;
+    border-radius: 100px;
+    padding: 1px;
+    height: 45px;
+    width: 600px;
+    align-items: center; 
+    position: absolute;
+    top: -20px;
+    left: 54%;
+    transform: translate(-60%, -50%);
+    z-index: 1; 
+    transition: width 0.5s ease; 
+}
+
+.search-container input:hover,
+.search-container input:focus {
+    width: 650px; 
+}
+
+
+
            
            .random-button {
             background-color: #b03232;
@@ -187,11 +188,13 @@
 </head>
 <body>
     <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search For Apps...">
-        <button class="random-button" onclick="redirectToRandomLink()">Random</button>
+    <input type="text" id="searchInput" placeholder="Search For 20+ Apps...">
     
 
-      <h2>ㅤ</h2>      
+       <br>
+      <br>
+      <br>
+      <br>    
 
       
          
@@ -320,16 +323,16 @@
         </div>
 
         <div class="box" onclick="location.href='/apps/tiktok/index.html';">
-            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/tiktok.png?v=1692626842495" alt="Image 3">
+            <img src="https://cdn.glitch.global/c3a313d1-d671-46a6-9112-0ae9062ea3d2/1e397781-6f6e-4f08-9d6e-b9389f8e9250.image.png?v=1709964815287" alt="Image 3">
             <div class="overlay">
                 <h3>TikTok</h3>
             </div>
         </div>
 
         <div class="box" onclick="location.href='/apps/geforce/index.html';">
-            <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/Screenshot%202023-08-17%201.36.11%20PM.png?v=1692626831240" alt="Image 4">
+            <img src="https://cdn.glitch.global/c3a313d1-d671-46a6-9112-0ae9062ea3d2/2b5fd76a-cbaa-45ce-b403-3f124a8c7a60.image.png?v=1709963997062" alt="Image 4">
             <div class="overlay">
-                <h3>NVIDIA GeForce NOW</h3>
+                <h3>GeForce NOW</h3>
             </div>
         </div>
 
@@ -432,6 +435,7 @@
 </html>
       
       <script src="/panicbutton.js"></script>
+<script src="/themes.js"></script>  
 
                </style>
 
@@ -441,3 +445,7 @@
           auto;
       }
     </style>
+
+
+ <script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
+  <script type='text/javascript' src='//pl22767577.profitablegatecpm.com/d2/67/d4/d267d430ca1da1e017a49cd2d7e28673.js'></script>
