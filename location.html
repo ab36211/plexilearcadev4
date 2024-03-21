@@ -563,22 +563,22 @@ document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener('fullscreenchange', () => {
     if (!document.fullscreenElement) {
       embedContainer.classList.remove('active');
-      popup.style.left = '-200px'; // Slide the popup back off-screen
+      popup.style.left = '-200px'; 
     }
   });
 
-  // Animate the popup sliding in from the left when the page loads
+  
   window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
-      popup.style.left = '60px'; // Slide the popup into view
-    }, 500); // Delay the animation for 0.5 seconds
+      popup.style.left = '60px'; 
+    }, 500); 
   });
 
   function enterFullscreen() {
     embedContainer.innerHTML = `<iframe src="/proxy.html" frameborder="0"></iframe>`;
     document.body.appendChild(embedContainer);
     embedContainer.classList.add('active');
-    popup.style.left = '-200px'; // Slide the popup off-screen when entering fullscreen
+    popup.style.left = '-200px'; 
     embedContainer.requestFullscreen();
   }
 

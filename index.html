@@ -25,9 +25,6 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles1.css">
     </div>
-    <script src="script1.js"></script>
-    <script src="themes.js"></script>
-    <script src="/panicbutton.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -47,21 +44,24 @@
     </nav>
 </body>
   
-      <h1>⠀</h1>
-  <h5>⠀</h6>
-  <h2>⠀</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
    
-
     <main>
         <section class="hero">
+          
           <h1 class="white-text">Welcome To <b style="color: #b03232;"</b>PLEXILE ARCADE</h1>
 
-          <h6>⠀</h6>
-  
-<script>
+          <br>
     
+          
+          <script>
     const randomTexts = [
-        "YOU ARE GETTING SOLD TO THE BLACK MARKET!",
+         "YOU ARE GETTING SOLD TO THE BLACK MARKET!",
         "you are a GAY person...",
         "hi there noob",
         "im sorry",
@@ -162,16 +162,25 @@
         "I got doxxed."
     ];
 
-    
+    function redirectToMobile() {
+        const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+        if (isMobile) {
+            window.location.href = '/mobile.html';
+        } else {
+            generateRandomText();
+        }
+    }
+
     function generateRandomText() {
         const randomIndex = Math.floor(Math.random() * randomTexts.length);
         const randomText = randomTexts[randomIndex];
         document.getElementById("random-text").textContent = randomText;
     }
 
-    
-    window.onload = generateRandomText;
+    window.onload = redirectToMobile;
 </script>
+
 </head>
 <body>
     <h1></h1>
@@ -377,7 +386,9 @@
 
 </body>
 </html>
-
+<script src="/script1.js"></script>
+    
+    <script src="/panicbutton.js"></script>
   
   <script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
   <script type='text/javascript' src='//pl22767577.profitablegatecpm.com/d2/67/d4/d267d430ca1da1e017a49cd2d7e28673.js'></script>
