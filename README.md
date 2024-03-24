@@ -2,7 +2,7 @@
 What is PLEXILE ARCADE?
 Its simply the best unblocked site for you!
 
-- It has over 112 Games (+ Working Roblox)
+- It has over 120 Games (+ Working Roblox)
 - It also has over 21 Apps
 - It has cool settings
 - It has a working Custom Proxy!

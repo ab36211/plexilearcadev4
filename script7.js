@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
   const numSnowballs = 200; 
   const body = document.body;
@@ -36,3 +37,4 @@ document.addEventListener("DOMContentLoaded", function() {
     body.appendChild(snowball); 
   }
 });
+  

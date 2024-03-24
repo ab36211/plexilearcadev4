@@ -18,13 +18,496 @@
 <meta content="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/3916a4f3-1077-49c3-a7cb-1b7578c9b330.image.png?v=1706427161648" property="og:image">
 <body>
 <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
   
-    <link rel="stylesheet" href="/css/navbare.css">
-  <link rel="stylesheet" href="/css/scrollbar.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles1.css">
+
+<script type="text/javascript">
+    aclib.runAutoTag({
+        zoneId: 'pubn6jn6pi',
+    });
+</script>
+  
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+body {
+  background: #16181c;
+  font-weight: 400;
+}
+  
+        .nav {
+            position: fixed;
+            top: 20px;
+            left: 13px;
+            width: 98%;
+            border-radius: 25px;
+            background-color: #12161D;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 7vw; 
+            z-index: 1000; 
+        }
+        .nav .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0; 
+            justify-content: center;
+            align-items: center; 
+            margin-left: -100px; 
+        }
+        .nav .nav-links .nav-item {
+            font-size: 20px;
+            color: #b03232;
+            text-decoration: none;
+            transition: color 0.2s linear;
+            margin-right: 32px; 
+            font-family: 'Inter', sans-serif; 
+            font-weight: bold; 
+            letter-spacing: 2px; 
+        }
+        .nav .nav-links .nav-item:last-child {
+            margin-right: 100; 
+        }
+        .nav .nav-links .nav-item:hover {
+            color: #892929;
+        }
+        .nav .logo {
+            margin-right: auto;
+            margin-bottom: 20px;
+          margin-left: 30px;
+        }
+        .nav .logo img {
+            height: 128px;
+        }
+        
+    
+      .nav-links {
+        
+      margin-right: 10;
+      
+      }
+
+
+select {
+  background: #27292e;
+  font-family: 'Montserrat';
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  transition: 300ms;
+}
+
+label {
+  font-family: 'Inter';
+}
+
+select:active {
+  transform: scale(1.05);
+}
+
+option {
+  font-family: 'Inter';
+  color: #b03232;
+  padding: 5px;
+}
+
+
+        #copyright {
+            font-size: 14px;
+            margin-top: 2px;
+            font-weight: bold; /* Increased font weight */
+            color: #b03232; /* Color of C Copyright PLEXILE ARCADE text */
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        #copyright:hover {
+            animation: shake 0.5s;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(5px); }
+
+	}
+
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16181C;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b03232;
+  border-radius: 15px;
+  height: 2px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.glitch.global/8ccf4cfa-741f-4630-8f29-733b36d972e6/f97cae64-03b4-4b89-94ec-0dacf077ea89.image.png?v=1705798388344') center/cover no-repeat; /* Add your background image */
+    color: White;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: 
+    margin: 0 15px;
+}
+
+nav a i {
+    margin-right: 5px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+  
+}
+
+.hero {
+    background: #12161D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero1 {
+    background: #12161D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero2 {
+    background: #12161D;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.hero3 {
+    background: #12161D;
+    padding: 60px;
+    border-radius: 10px;
+    width: 32%;
+    margin-right: 852px; 
+    margin-top: -70px;
+  
+}
+  
+  .hero4 {
+    background: #12161D;
+    padding: 62px;
+    border-radius: 10px;
+    width: 35%;
+    margin-right: 0px; 
+    margin-top: -313px;
+
+   
+}
+
+.hero5 {
+    background: #12161D;
+    padding: 66px;
+    border-radius: 10px;
+    width: 38%;
+    margin-left: 855px; 
+    margin-top: -414px;
+  
+}
+
+.cta-button {
+    background-color: #b03232;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
+.recommendations-title {
+    color: #ffcc00;
+}
+
+.recommended-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.game-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.game-box:hover {
+    background-color: #ffcc00; /* Yellow color */
+    transform: scale(1.05);
+}
+
+.game-box img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the max height as needed */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 20px auto;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: calc(14.2857% - 20px); /* Adjusted width for 7 boxes in a row with margin */
+            height: 150px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.2s, border-radius 0.3s;
+            border-radius: 15px;
+            background-color: #clear; /* Added background color for better visibility */
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            border-radius: 0;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .box .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 15px;
+        }
+
+        .box:hover .overlay {
+            opacity: 1;
+        }
+
+
+
+.mini-box {
+  width: 45px;
+  height: 45px;
+  background-color: #27292E;
+  border: 2px solid #b03232;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.box-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #363940;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #b03232;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #b03232;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.snowball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #b03232; 
+  border-radius: 50%;
+  pointer-events: none; 
+  z-index: -1;
+  opacity: 0.6; 
+  animation: snowdrift 8s infinite alternate; 
+}
+
+.transparent {
+  opacity: 0.4; 
+}
+
+.light {
+  background-color: #f5aaaa; 
+}
+
+.small {
+  width: 5px;
+  height: 5px;
+}
+
+@keyframes snowdrift {
+  0% {
+    transform: translate(-4px, -4px);
+  }
+  100% {
+    transform: translate(4px, 4px);
+  }
+	  
+  </style>
+  
     </div>
+    <script src="script1.js"></script>
+    <script src="themes.js"></script>
+    <script src="/panicbutton.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -43,25 +526,23 @@
         </ul>
     </nav>
 </body>
-  
+	
   <br>
   <br>
   <br>
   <br>
-  <br>
-  
-   
+  <br> 
+
     <main>
         <section class="hero">
-          
           <h1 class="white-text">Welcome To <b style="color: #b03232;"</b>PLEXILE ARCADE</h1>
 
-          <br>
+          <h6>⠀</h6>
+  
+<script>
     
-          
-          <script>
     const randomTexts = [
-         "YOU ARE GETTING SOLD TO THE BLACK MARKET!",
+        "YOU ARE GETTING SOLD TO THE BLACK MARKET!",
         "you are a GAY person...",
         "hi there noob",
         "im sorry",
@@ -162,25 +643,16 @@
         "I got doxxed."
     ];
 
-    function redirectToMobile() {
-        const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-        if (isMobile) {
-            window.location.href = '/mobile.html';
-        } else {
-            generateRandomText();
-        }
-    }
-
+    
     function generateRandomText() {
         const randomIndex = Math.floor(Math.random() * randomTexts.length);
         const randomText = randomTexts[randomIndex];
         document.getElementById("random-text").textContent = randomText;
     }
 
-    window.onload = redirectToMobile;
+    
+    window.onload = generateRandomText;
 </script>
-
 </head>
 <body>
     <h1></h1>
@@ -217,7 +689,7 @@
           
         </section>
 
-      <h3>ㅤ<h3>
+      <br>
       
         
    
@@ -266,7 +738,7 @@
       </section>
      
      
-     <h3>ㅤ</h3>
+    <br>
      
       <section class="hero1">
           
@@ -311,9 +783,54 @@
         </div>
       </section>
      
+      <br>
      
-    
-        <h3>ㅤ<h3>
+      <section class="hero1">
+          
+                  <h1 class="recommendations-title" style="color: #b03232;">Partners<b style="color: #fff;"</b></h1>
+          
+        
+   <b style="color: #fff;"><h1><span><b style="color: #b03232;"></span></h1><center><h1></h1></center>
+    <div class="box-container">
+        <div class="box" onclick="location.href='https://xenapsis.dev/';">     
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/thumbnails%2F4892ebed-2d87-4346-8257-d2d8528f80e0.image.png?1708141821174" alt="Image 1">
+            <div class="overlay">
+                <h3>Xenapsis</h3>
+            </div>
+        </div>
+      
+        <div class="box" onclick="location.href='https://sites.google.com/site/classroom6x/';">
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/c72a6e1e-d3ad-4e10-930c-db7e2a3e9805.image.png?v=1708141942807" alt="Image 2">
+            <div class="overlay">
+                <h3>Classroom 6X</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='https://infinitetutoring.online/';">
+            <img src="https://cdn.glitch.global/f42c13e8-0e6f-444a-b008-7de3421e8aa3/e87b0329-7b07-473f-a2c9-5f48e043e881.image.png?v=1711258203255" alt="Image 3">
+            <div class="overlay">
+                <h3>Jordan's Math Work</h3>
+            </div>
+        </div>
+      
+              <div class="box" onclick="location.href='https://frogiesarcade.web.app';">
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/af13defe-f029-4cf7-b305-6c5af4cb0ed8.image.png?v=1708142145068" alt="Image 2">
+            <div class="overlay">
+                <h3>Frogie's Arcade</h3>
+            </div>
+        </div>
+
+        <div class="box" onclick="location.href='https://dsc.gg/plexilearcade';">
+            <img src="https://cdn.glitch.global/d53982d6-3a53-4ffc-88d6-1cb7ae8f6fc4/851cce8f-2e9c-42b0-bd0b-d82da26a6da4.image.png?v=1708142431689" alt="Image 3">
+            <div class="overlay">
+                <h3>This Could Be YOU!</h3>
+            </div>
+        </div>
+      </section>
+     
+     
+     <h3>ㅤ<h3>
+
       
         
    
@@ -357,11 +874,10 @@
             transform: scale(1.2);
         }
 
-        
-        body {
-        cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"),
-          auto;
-      }
+body, * {
+    cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"), auto !important;
+}
+
         
     </style>
 </head>
@@ -381,14 +897,13 @@
 </head>
 <body>
   <div class="snow-container"></div>
+
     
   </div>
 
 </body>
 </html>
-<script src="/script1.js"></script>
-    
-    <script src="/panicbutton.js"></script>
+
   
-  <script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
+<script type='text/javascript' src='//pl22767371.profitablegatecpm.com/ef/bc/31/efbc316595b6cc032b751a3ba1b747ad.js'></script>
   <script type='text/javascript' src='//pl22767577.profitablegatecpm.com/d2/67/d4/d267d430ca1da1e017a49cd2d7e28673.js'></script>
