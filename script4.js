@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
    
     const x = Math.random() * (window.innerWidth - 2 * padding) + padding;
-    const y = Math.random() * (window.innerHeight + 230); 
+    const y = Math.random() * (window.innerHeight + 350); 
     snowball.style.left = `${x}px`;
     snowball.style.top = `${y}px`;
 

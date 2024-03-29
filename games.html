@@ -65,39 +65,51 @@
     
         }
 
+
+      
+           
+      
         .box {
-            width: calc(14.2857% - 20px); /* Adjusted width for 7 boxes in a row with margin */
-            width: 168px;
-            height: 168px;
+            width: calc(14.2857% - 20px);
+            width: 187px;
+            height: 180px;
             margin: 10px;
             position: relative;
             overflow: hidden;
             cursor: pointer;
-            transition: transform 0.2s, border-radius 0.3s;
+            transition: transform 0.2s, border-radius 0.3s, border-color 0.3s;
             border-radius: 15px;
-            background-color: #clear; 
-
-
+            background-color: #clear;
+            border: 2px solid transparent; 
+          
         }
 
         .box:hover {
-            transform: scale(1.1);
-            border-radius: 0;
+          transform: scale(1.1);
+          border: 2px solid #b03232;
+          border-radius: 20px;
+         
+      
+      
+          
         }
 
         .box img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: ;
             border-radius: 15px;
         }
 
-        .box .overlay {
+
+      
+      
+           .box .overlay {
             position: absolute;
-            top: 0;
+            top: 143px;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 20%;
             background: rgba(0, 0, 0, 0.5);
             color: #fff;
             display: flex;
@@ -106,12 +118,26 @@
             align-items: center;
             opacity: 0;
             transition: opacity 0.3s;
-            border-radius: 15px;
+            border-radius: 0 0 15px 15px
+             
         }
 
         .box:hover .overlay {
             opacity: 1;
+             
+          
         }
+      
+      
+      h3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+ 
+}
+  
       
 .search-container {
     position: relative;
@@ -150,6 +176,9 @@
     width: 640px; 
 }
 
+      body, * {
+    cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"), auto !important;
+}
 
 
            .random-button {
@@ -195,7 +224,7 @@
                 <div class="box-container">     
 
         <div class="box" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScNuKVNeZREWrw8dxqK6vufBsE_9LtMOIOBlkF8wfLXaN-PRA/viewform';">
-            <img src="https://cdn.glitch.global/71103c69-9a4c-458c-9a77-05ee0f3c1324/Screenshot_2023-11-20_12.45.15_PM-removebg-preview.png?v=1700505977892" alt="Image 3">
+            <img src="https://cdn.glitch.global/35067e2b-f20c-4a33-b740-a7ebe873289b/Screenshot_2023-11-20_12.45.15_PM-removebg-preview-fotor-bg-remover-2024032820326.png?v=1711675946868" alt="Image 3">
             <div class="overlay">
                 <h3>Add Games</h3>
             </div>
@@ -225,7 +254,7 @@
         <div class="box" onclick="location.href='/games/breakingintoairship/index.html';">
             <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/946a17db-8094-40e5-ac2c-b9d481276f81.image.png?v=1703292892694" alt="Image 7">
             <div class="overlay">
-                <h3>Infiltrating The Airship</h3>
+                <h3>ITA</h3>
             </div>
         </div>
       
@@ -239,7 +268,7 @@
         <div class="box" onclick="location.href='/games/btd3/index.html';">
             <img src="https://cdn.glitch.global/a6afb399-015e-40ac-96d7-92e23c3408bb/63e543b6-bf89-4a64-a3a0-c8b9d4eedd02.image.png?v=1703292707427" alt="Image 3">
             <div class="overlay">
-                <h3>Bloons Tower Defense 3</h3>
+                <h3>BTD 3</h3>
             </div>
         </div>
 
@@ -372,7 +401,7 @@
         <div class="box" onclick="location.href='/games/eurocup/index.html';">
             <img src="https://cdn.glitch.global/765ad944-950b-4d3c-ac9b-ca0d69b802e6/soccerskillseurocup.png?v=1694284910692" alt="Image 4">
             <div class="overlay">
-                <h3>Soccer Skills: Euro Cup</h3>
+                <h3>Euro Cup</h3>
             </div>
         </div>
 
@@ -421,14 +450,14 @@
         <div class="box" onclick="location.href='/games/worldshardestgame/index.html';">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzmkxFMJKTs5xziGQQTrUOoDpcRw3AutB6hL8M0KNpmsHehDPOt_tWia_Yj2yG3_9yYro:https://play-lh.googleusercontent.com/HC1zY9qnLmseb1XadrnTELTGfHPCI6zxSzaqJ2BObPxfsVPTZKNz73EImqqe0NYDegIB%3Dw240-h480-rw&usqp=CAU" alt="Image 5">
             <div class="overlay">
-                <h3>Worlds Hardest Game</h3>
+              <h3>Worlds Hardest Game</h3>
             </div>
         </div>
 
         <div class="box" onclick="location.href='/games/geometrydashscratch/index.html';">
             <img src="https://cdn.glitch.global/ef1d4dae-1067-41bc-807e-23e6553b1033/geoscratchicon.png?v=16926267664372" alt="Image 6">
             <div class="overlay">
-                <h3>Geometry Dash (Scratch)</h3>
+                <h3>Geometry Dash</h3>
             </div>
         </div>
 
@@ -491,7 +520,7 @@
         <div class="box" onclick="location.href='/games/hobo2/index.html';">
             <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/12ad59c3-7480-4911-b461-f8ae6b7668a9.image.png?v=1702321988617" alt="Image 3">
             <div class="overlay">
-                <h3>Hobo 2: Prison Brawl</h3>
+                <h3>Hobo 2</h3>
             </div>
         </div>
 
@@ -1009,7 +1038,7 @@
         </div>
 
         <div class="box" onclick="location.href='/games/among-us/index.html';">
-            <img src="https://cdn.glitch.global/865a8510-dee1-4b3c-990c-261401251a3e/ef256317-8f49-4b3a-96e6-f0ee54acc31b.image.png?v=1702322195079" alt="Image 6">
+            <img src="https://cdn.glitch.global/35067e2b-f20c-4a33-b740-a7ebe873289b/a315fd51-9c6e-4af5-b272-de6b2934f9a4.image.png?v=1711675709971" alt="Image 6">
             <div class="overlay">
                 <h3>Among Us</h3>
             </div>
