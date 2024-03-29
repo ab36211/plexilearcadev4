@@ -63,40 +63,47 @@
     
         }
 
-        .box {
+             .box {
             width: calc(14.2857% - 20px);
-            width: 168px;
-            height: 168px;
+            width: 187px;
+            height: 180px;
             margin: 10px;
             position: relative;
             overflow: hidden;
             cursor: pointer;
-            transition: transform 0.2s, border-radius 0.3s;
+            transition: transform 0.2s, border-radius 0.3s, border-color 0.3s;
             border-radius: 15px;
-            background-color: #clear; 
+            background-color: #clear;
+            border: 2px solid transparent; 
           
-          
-
         }
 
         .box:hover {
-            transform: scale(1.1);
-            border-radius: 0;
+          transform: scale(1.1);
+          border: 2px solid #b03232;
+          border-radius: 20px;
+         
+      
+      
+          
         }
 
         .box img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: ;
             border-radius: 15px;
         }
 
-        .box .overlay {
+
+      
+      
+           .box .overlay {
             position: absolute;
-            top: 0;
+            top: 143px;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 20%;
             background: rgba(0, 0, 0, 0.5);
             color: #fff;
             display: flex;
@@ -105,12 +112,29 @@
             align-items: center;
             opacity: 0;
             transition: opacity 0.3s;
-            border-radius: 15px;
+            border-radius: 0 0 15px 15px
+             
         }
 
         .box:hover .overlay {
             opacity: 1;
+             
+          
         }
+      
+      
+      h3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+ 
+}
+     
+      body, * {
+    cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"), auto !important;
+}
       
       .search-container {
     position: relative;
@@ -200,7 +224,7 @@
          
     <div class="box-container">
         <div class="box" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeOHXG03lcI3PP8Tmp80xK07VY-4ASiUAHviNpSa8jcHREudA/viewform';">     
-            <img src="https://cdn.glitch.global/71103c69-9a4c-458c-9a77-05ee0f3c1324/Screenshot_2023-11-20_12.45.15_PM-removebg-preview.png?v=1700505977892" alt="Image 1">
+            <img src="https://cdn.glitch.global/35067e2b-f20c-4a33-b740-a7ebe873289b/Screenshot_2023-11-20_12.45.15_PM-removebg-preview-fotor-bg-remover-2024032820326.png?v=1711675946868" alt="Image 1">
             <div class="overlay">
                 <h3>Add Apps</h3>
             </div>

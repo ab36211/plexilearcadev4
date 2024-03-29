@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>PLEXILE ARCADE | Setttings</title>
+<title>PLEXILE ARCADE | Settings</title>
       <link rel="icon" type="image/png" href="https://cdn.glitch.global/2b25e860-636a-4eab-b48e-c6ae1aa92d6b/0ab56e19-2879-494d-8a3f-f79afb755ec1.image-fotor-bg-remover-20240127224610.png?v=1706417182506">
 <html>
   <head>
@@ -39,11 +39,9 @@
     }
           
           
-        
-      body {
-        cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"),
-          auto;
-      }
+     body, * {
+    cursor: url("https://cdn.glitch.global/5974de2d-be05-4647-b3ac-08c6e71752fc/Removal-791.png?v=1707616156693"), auto !important;
+}
           
 </style>
   
@@ -61,13 +59,13 @@
    
      <main>
     <section class="hero2">
-        <h2>Tab Cloaking</h2>
+        <h2>Tab Cloaker</h2>
         <br />
         <div class="buttons">
             <input
                 id="title"
                 class="input"
-                placeholder=" Title Text"
+                placeholder=" Tab Name"
                 onkeyup="setTitle(this.value)"
             />
             <br />
@@ -75,7 +73,7 @@
             <input
                 id="icon"
                 class="input"
-                placeholder="Favicon URL"
+                placeholder="Tab Favicon"
                 onkeyup="setFavicon(this.value.trim())"
             />
         </div>
